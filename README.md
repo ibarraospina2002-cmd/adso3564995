@@ -1,6 +1,6 @@
 # adso3564995
 ## Nicoly Valeria Ospina ibarra 
-![profile picture](C:\Users\SENA\adso3564995\src\imagen\persona-que-trabaja-html-computadora_23-2150038860.avif)\\
+![profile picture](src/imagen/images.jpg)\\
 ### Analisis y Desarrollo de software 
-*** centro de procesos industriales y construccio ***
+***centro de procesos industriales***
 ---
