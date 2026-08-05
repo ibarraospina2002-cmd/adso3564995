@@ -1,6 +1,6 @@
 # adso3564995
 ## Nicoly Valeria Ospina ibarra 
-![profile picture](src/images/foto.jpg)
+![profile picture](src/images/foto.webp)
 ### Analisis y Desarrollo de software 
 ***centro de procesos industriales***
 > SENA - REGIONAL CALDAS
