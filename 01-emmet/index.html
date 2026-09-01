@@ -270,10 +270,34 @@ initial-scale=1.0">
             </h2>
             <small>Generates emmet challenges for practice.</small>
             <h3>Example: </h3>
-            <p> ↔️</p>
+            <p style="font-size: 0.5rem;">header#header>nav.navbar.navbar-inserse>div.container>div.navbar-header>button[type="button"].navbar-toggle>span.sr-only{toggle navigation}+span.icon-bar*3^a.navbar-brand[href="index.php"]>img[src="img/logo.pgn" alt=""]>div.collage>ul.nav.navbar-nav^li>a.link[href="index.html"]{inicio}^li>li.active.link>a.[href="login.html"]{Ingresar}^li>a.link[href="registro.html"]{Registrarse}^li>a.link[href="contacto.html"]{Contacto}</p>
             <h3>Result: </h3>
-<xmp>
-   header#header.navbar.navbar-inverse>div.container>div.navbar-header>button[typer="button"].navbar-toggle>span.sr-only{toggle navagation}+span.icon-bar*3>a.navbar-brand[href="index.php"]>img[src="imgs/logo.png"][alt="">div.collapse>ul.navbar-nav>(li>a.link[href="index.html"]{inicio})+(li.activelink[href="index.html"]{ingresar})+(li>a.link[href="registro.html"]{registrarse})+(li>a.link[href="contacto.html"]{contact})
+<xmp style="font-size: 0.5rem;">
+<header id="header">
+    <nav class="navbar navbar-inserse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             <a href="index.php" class="navbar-brand">
+                 <img src="img/logo.pgn" alt="">
+                    <div class="collage">
+                        <ul class="nav navbar-nav"></ul>
+                    </div>
+                     <li><a href="index.html" class="link">inicio</a></li>
+                     <li class="active link"><a href="login.html" class="">Ingresar</a></li>
+                     <li><a href="registro.html" class="link">Registrarse</a></li>
+                     <li><a href="contacto.html" class="link">Contacto</a></li>
+                 </img>
+             </a>
+            </div>
+        </div>
+    </nav>
+</header>
 </xmp>
          </section>
 
