@@ -119,20 +119,43 @@
                     }
                 }
             }
-            footer {
-                background-color: white;
-                background: url(imgs/spriteweb.png) no-repeat;
-                background-position: -520px -445px ;
-                width: 980px;
-                height: 200px;
-                a{
-                    
-                }
-            }
-        }
-    } 
 
+        } 
+     }
+     menu a.hover {
+        border-bottom: 4px solid yellow;
+     }
 
+     footer {
+        border: 10px solid white;
+        background-color: white;
+        width: 960px;
+        height: 200px;
+        margin: 2rem auto 0;
+    nav {
+        width: 520px;
+        padding: 0 30px;
+        text-align: center;
+        margin: 2rem auto;
+    }
+    a {
+        background-color: white;
+        color: #000;
+        font-size: 14px;
+        padding: 10px ;
+        border-bottom:4px solid ;
+        text-transform: uppercase;
+    }
+         div.imagen {
+            background: url(imgs/spriteweb.png) no-repeat;
+            background-position: -524px -445px;
+            width: 245px;
+            height: 120px;
+            margin: auto;
+    }
+} 
+    
+     
     </style>
 </head>
 <body>
@@ -186,14 +209,15 @@
             <section>
             <figure class="logo"></figure>
             <footer>
-                <a href="">Inicio</a>
+            <div class="imagen"></div>
+            <nav> <a href="">Inicio</a>
                 <a href="">Nosotros</a>
                 <a href="">Portafolio</a>
                 <a href="">Servicios</a>
                 <a href="">Contacto</a>
+            </nav>
             </footer>
         </section>
     </main>
 </body>
 </html>
-
