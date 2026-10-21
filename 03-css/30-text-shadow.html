@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-text-shadow</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <style>
+        section {
+            p.txt {
+                font-size: 4rem;
+                font-weight: 600;
+                text-align: center;
+                margin: 1rem 0;
+
+                &.txt1 {
+                    color: black;
+                    text-shadow: 0 0 6px white;
+                }
+                &.txt2 {
+                    color: #000;
+                    text-shadow: -4px -4px 4px white;
+                }
+                &.txt3 {
+                    color: #d10a95;
+                    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+                }
+                &.txt4 {
+                    color: white;
+                    letter-spacing: 0.6rem;
+                    text-shadow: -5px 0 0 #fcdd09,
+                                -10px 0 0 #078930;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body class="css">
+    <nav class="goback">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168A8,8,0,0,1,176,128Z"></path></svg>
+            </a>
+    </nav>
+    <main>
+        <header class="mmenu internal">
+         <h1>30-text-shadow</h1>
+           <img src="../03-css/imgs/logo-css.png">
+         <h3>Adds shadows to text.</h3>
+        </header>
+        <section>
+            <h2 class="subtitle">Examples:</h2>
+            <p class="txt txt1">ADSO</p>
+            <p class="txt txt2">C.P.I.C</p>
+            <p class="txt txt3">SENA</p>
+            <p class="txt txt4">Caldas</p>
+        </section>
+    </main>
+</body>
+
+</html>
