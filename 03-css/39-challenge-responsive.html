@@ -9,7 +9,8 @@
             transition: al 04s ease;
         }
         body {
-            background-color: #013571;
+
+            background: linear-gradient(black,transparent,#0009), url(imgs/images.jpg) no-repeat center /cover;
             color: #fff;
             font-family: sans-serif;
             padding: 0;
@@ -34,40 +35,95 @@
 
                     menu {
                         margin: 0;
-                        padding: 0;
+                        padding: 0 ;
 
                         a:is(:link, :visited) {
-                            background: #fff;
-                            color: #013571;
-                            padding: 1rem;
+                            background-size: 20rem;
+                            color: #0a0a0a;
+                            font-size: 5rem;
+                            padding: 3.2rem ;
                             display: inline-block;
                             text-align: center;
                             text-decoration: none;
-                            width: 219.8px;
+                            width: 512px;
+                            height: 512px;
+                            margin: 0.2rem;
+                            border: 6px solid white;
+                            zoom: 0.5;
+                            box-shadow: 0 0 12px  #fff;
+
+                            &:nth-of-type(1){
+                                background: url(imgs/tom.png) no-repeat center;
+                                width: 512px;
+                                height: 512px;
+                                background-size: 100%;
+                            }
+                            &:nth-of-type(2) {
+                                background: #fff url(imgs/Jerry.png) no-repeat center;
+                                width: 512px;
+                                height: 512px;
+                                background-size: 90%;
+
+                            }
+                            &:nth-of-type(3) {
+                                background: #fff url(imgs/tyke.png) no-repeat center;
+                                width: 512px;
+                                height: 512px;
+                            }
+                            &:nth-of-type(4) {
+                                background: #fff url(imgs/spike.png) no-repeat center;
+                                background-position: 1rem;
+                                width: 512px;
+                                height: 512px;
+                                background-size: 98% ;
+
+                            }
 
                             &:hover {
-                                background: linear-gradient(#013571 90%, #fff 90%);
                                 transform: translateY(10px);
-                                color: #fff;
+                                color: #0a0a0a;
                             }
                         }
                     }
 
                 }
                 section {
-                    h2 {
-                        text-align: center;
-                        font-size: 2.8rem;
 
-                        &:nth-of-type(2),
-                        &:last-of-type {
-                            display: none;
+                    div.parent {
+                        border: 2px solid red;
+                        margin-top: 1rem;
+                        div.left,
+                        div.text {
+                            vertical-align: top;
+                            display: inline-block;
+                            text-align: center;
                         }
-                    }
+                        div.left {
+                            width: 212px;
+                            height: 212px;
+                            margin-right: 2rem;
+                            &.left1 {
+                                background: url(imgs/Tom-and-Jerry.png) no-repeat center / cover;
+                            }
+                            &.left2 {
+                                background: url(imgs/indiotom.png) no-repeat center / cover;
+                            }
+                            &.left3 {
+                                background: url(imgs/fototom.webp) no-repeat center / cover;
+                            }
+                            &.left4 {
+                                background: url(imgs/bicijerry.jpg) no-repeat center / cover;
+                            }
+                            &:hover {
+                            transform: scale(1.2);
+                            }
+                        }
 
-                    p {
-                        line-height: 1.8rem;
-                        text-align: justify;
+                        div.text {
+                            width: 950px;
+                            text-align: center;
+                        }
+
                     }
                 }
             }
@@ -118,9 +174,10 @@
 
                     header {
                         figure.logo {
-                            background: url(imgs/pepsi03.png) no-repeat center;
-                            height: 156px;
-                            width: 162px;
+                            background: url(imgs/indiotom.png) no-repeat center;
+                            background-size: 11rem auto;
+                            height: 200px;
+                            width: 280px;
                         }
                         menu {
                             a:is(:link, :visited) {
@@ -157,15 +214,39 @@
         </menu>
     </header>
     <section>
-        <h2>Desktop: > 1280px</h2>
-        <h2>Tablet: < 1280px > 800px> </h2>
-        <h2>Mobile: < 800px </h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum fugiat dolorem iste vitae cupiditate illo inventore accusamus recusandae, omnis sit quibusdam ullam! Labore est, adipisci quaerat quod tempore cum excepturi, sit dolore aliquid consequuntur aperiam incidunt quam, exercitationem voluptates temporibus delectus? Voluptatem ipsa deleniti laboriosam aliquam alias nulla maxime accusantium, expedita architecto officiis molestiae, ducimus delectus, deserunt quas dignissimos?
-        </p>        
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum fugiat dolorem iste vitae cupiditate illo inventore accusamus recusandae, omnis sit quibusdam ullam! Labore est, adipisci quaerat quod tempore cum excepturi, sit dolore aliquid consequuntur aperiam incidunt quam, exercitationem voluptates temporibus delectus? Voluptatem ipsa deleniti laboriosam aliquam alias nulla maxime accusantium, expedita architecto officiis molestiae, ducimus delectus, deserunt quas dignissimos?
-        </p>        
+
+       <div class="parent">
+            <div class="left left1"></div>
+            <div class="text">
+                <h3>Tom</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et distinctio aliquam nemo modi officiis explicabo omnis nobis aspernatur, itaque, id minus. Delectus consequatur, eaque quasi adipisci asperiores exercitationem aperiam?
+                Impedit sed vitae non? Sint nostrum culpa provident deleniti. Laborum, eveniet maiores. Laborum dicta reiciendis sapiente ea magnam temporibus quo amet debitis aliquam? Exercitationem recusandae quae est in magni excepturi.</p>
+            </div>
+        </div>
+        <div class="parent">
+            <div class="left left2"></div>
+            <div class="text">
+                <h3>Tyke</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et distinctio aliquam nemo modi officiis explicabo omnis nobis aspernatur, itaque, id minus. Delectus consequatur, eaque quasi adipisci asperiores exercitationem aperiam?
+                Impedit sed vitae non? Sint nostrum culpa provident deleniti. Laborum, eveniet maiores. Laborum dicta reiciendis sapiente ea magnam temporibus quo amet debitis aliquam? Exercitationem recusandae quae est in magni excepturi.</p>
+            </div>  
+        </div>   
+        <div class="parent">
+            <div class="left left3"></div>
+            <div class="text">
+                <h3>Jerry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et distinctio aliquam nemo modi officiis explicabo omnis nobis aspernatur, itaque, id minus. Delectus consequatur, eaque quasi adipisci asperiores exercitationem aperiam?
+                Impedit sed vitae non? Sint nostrum culpa provident deleniti. Laborum, eveniet maiores. Laborum dicta reiciendis sapiente ea magnam temporibus quo amet debitis aliquam? Exercitationem recusandae quae est in magni excepturi.</p>
+            </div>  
+        </div> 
+        <div class="parent">
+            <div class="left left4"></div>
+            <div class="text">
+                <h3>Spike</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et distinctio aliquam nemo modi officiis explicabo omnis nobis aspernatur, itaque, id minus. Delectus consequatur, eaque quasi adipisci asperiores exercitationem aperiam?
+                Impedit sed vitae non? Sint nostrum culpa provident deleniti. Laborum, eveniet maiores. Laborum dicta reiciendis sapiente ea magnam temporibus quo amet debitis aliquam? Exercitationem recusandae quae est in magni excepturi.</p>
+            </div>  
+        </div> 
     </section>
    </main> 
 </body>
