@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-write</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+   
+</head>
+
+<body class="js">
+    <nav class="goback">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168A8,8,0,0,1,176,128Z"></path></svg>
+            </a>
+    </nav>
+    <main>
+        <header class="mmenu internal">
+         <h1>01-write</h1>
+           <img src="imgs/logo-js.png">
+         <h3>Aprende a escribir y ejecutar código básico de JavaScript.</h3>
+        </header>
+        <section>
+            <script>
+            document.write("<h3 class='subtitle'>Welcome to JS 💛</h3>");
+        </script>
+            <p id="message"></p>
+        </section>
+    </main>
+     <script>
+        // Write in Document
+        const msg        = document.getElementById('message');
+        const string     = ' Amazing'
+        msg.innerHTML    = " <strong> We love </strong>";
+        msg.innerText   += " Javascript";
+        msg.textContent += ` is ${string}`;  //String Template
+
+        // Write Console 
+        const pokemons = [
+            ['Pikachu', 'Electric'],
+            ['Bulbasor', 'Grass'],
+            ['Charmander', 'Fire'],
+            ['Squitertle', 'Water'],
+        ];
+        console.clear();
+        console.log("There are: "+pokemons.length+" pokemons");
+        console.table(pokemons);
+        console.log("4 pow 4 equals = "+4**4);
+    </script>
+</body>
+
+</html>
